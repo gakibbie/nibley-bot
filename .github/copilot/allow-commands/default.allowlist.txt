@@ -6,10 +6,51 @@ git diff
 git add
 git commit
 git log
+git show
+git rev-parse
+git branch
+git ls-files
+git grep
+git remote
+git tag
+git config --get
+
+gh --version
+gh auth status
+gh repo view
+gh pr view
+gh pr list
+gh issue view
+gh issue list
+gh run view
+gh run list
 
 rg
+grep
 ls
+find
+tree
 cat
+head
+tail
+sed
+awk
+cut
+sort
+uniq
+wc
+tr
+pwd
+echo
+which
+command -v
+stat
+
+node --version
+npm --version
+pnpm --version
+yarn --version
+npx --version
 
 npm ci
 npm install

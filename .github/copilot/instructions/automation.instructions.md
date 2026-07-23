@@ -13,6 +13,8 @@ Deliver small, safe, and reversible changes with clear verification.
 - Keep behavior unchanged unless explicitly requested.
 - Add tests when changing behavior or fixing a bug.
 - Document assumptions when requirements are ambiguous.
+- Prefer GitHub MCP for repository/PR/issue/run queries when available.
+- Fall back to read-only git shell commands when GitHub MCP is unavailable or insufficient.
 
 ## Validation Standards
 

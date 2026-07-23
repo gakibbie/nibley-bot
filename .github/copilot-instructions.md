@@ -19,3 +19,9 @@ Follow the automation guidance in `.github/copilot/instructions/automation.instr
 
 Use command allowlists in `.github/copilot/allow-commands/`.
 Prefer `ci.allowlist.txt` for CI and `default.allowlist.txt` for local work.
+
+## MCP Tooling Priority
+
+- For repository intelligence and workflow tasks, prioritize GitHub MCP first.
+- Prefer GitHub MCP for PR, issue, run, and repository metadata queries before shell-based alternatives.
+- Use local git commands for working tree inspection and validation, or when GitHub MCP cannot provide the required result.
