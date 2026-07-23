@@ -1,0 +1,161 @@
+LIBRARY INDEX — Nibley Text Collection (Custom GPT Knowledge Pack)
+
+How to use:
+- Start with this index to pick the best target book(s).
+- Then search within the selected book file(s).
+
+File cap note: The large combined 'Teachings of the Book of Mormon' file has been split into 4 parts (P1-P4).
+The library now contains 21 book files + 2 routing files. On plans with a file cap, load the TBOM parts you need rather than all four.
+
+================================================================================
+
+Total books: 21 (TBOM split into 4 parts)
+Total words (approx): 3,951,268
+Total tokens (rough estimate): 5,255,185
+
+## 01_NIBLEY_CW_V01_The_Collected_Works_of_Hugh_Nibley_Vol._1_Old-Testament-and-Related-St.txt
+BOOK_ID: NIBLEY_CW_V01
+Title: The Collected Works of Hugh Nibley, Vol. 1 Old-Testament-and-Related-Studies-the-Collected-Works-of-Hugh-Nibley-Volume-1
+Approx length: 104,687 words | ~139,234 tokens
+Top terms: one, world, god, time, man, things, great, adam, worlds, earth, isaiah, see
+Preview: Foreword
+
+## 02_NIBLEY_CW_V02_The_Collected_Works_of_Hugh_Nibley_Vol._2_Enoch_the_Prophet.txt
+BOOK_ID: NIBLEY_CW_V02
+Title: The Collected Works of Hugh Nibley, Vol. 2 Enoch the Prophet
+Approx length: 102,367 words | ~136,148 tokens
+Top terms: enoch, god, book, moses, earth, shall, lord, one, great, upon, adam, men
+Preview: The Collected Works of Hugh Nibley: Volume 2
+
+## 03_NIBLEY_CW_V04_The_Collected_Works_of_Hugh_Nibley_Vol._4_Mormonism_and_Early_Christia.txt
+BOOK_ID: NIBLEY_CW_V04
+Title: The Collected Works of Hugh Nibley, Vol. 4 Mormonism and Early Christianity
+Approx length: 160,696 words | ~213,726 tokens
+Top terms: church, one, temple, world, christian, new, jerusalem, christ, time, would, apostles, lord
+Preview: Mormonism and Early
+
+## 04_NIBLEY_CW_V05_The_Collected_Works_of_Hugh_Nibley_Vol._5_Lehi_in_the_Desert_-_The_Wor.txt
+BOOK_ID: NIBLEY_CW_V05
+Title: The Collected Works of Hugh Nibley, Vol. 5 Lehi in the Desert - The World of the Jaredites - There Were Jaredites
+Approx length: 157,758 words | ~209,818 tokens
+Top terms: one, book, great, would, ether, people, world, nephi, lehi, egyptian, mormon, egypt
+Preview: The Collected Works of Hugh Nibley
+
+## 05_NIBLEY_CW_V06_The_Collected_Works_of_Hugh_Nibley_Vol._6_An_Approach_to_the_Book_of_M.txt
+BOOK_ID: NIBLEY_CW_V06
+Title: The Collected Works of Hugh Nibley, Vol. 6 An Approach to the Book of Mormon
+Approx length: 171,576 words | ~228,196 tokens
+Top terms: book, mormon, one, nephi, people, world, great, time, new, desert, ancient, land
+Preview: The Collected Works of Hugh Nibley: Volume 6
+
+## 06_NIBLEY_CW_V07_The_Collected_Works_of_Hugh_Nibley_Vol._7_Since_Cumorah.txt
+BOOK_ID: NIBLEY_CW_V07
+Title: The Collected Works of Hugh Nibley, Vol. 7 Since Cumorah
+Approx length: 161,937 words | ~215,376 tokens
+Top terms: book, mormon, one, alma, nephi, people, new, time, things, would, god, shall
+Preview: Since Cumorah Hugh Nibley
+
+## 07_NIBLEY_CW_V09_The_Collected_Works_of_Hugh_Nibley_Vol._9_Approaching_Zion.txt
+BOOK_ID: NIBLEY_CW_V09
+Title: The Collected Works of Hugh Nibley, Vol. 9 Approaching Zion
+Approx length: 216,392 words | ~287,801 tokens
+Top terms: one, world, god, things, lord, people, would, zion, law, must, life, time
+Preview: © 1989 Hugh Nibley and Associates, LLC.
+
+## 08_NIBLEY_CW_V10_The_Collected_Works_of_Hugh_Nibley_Vol._10_The_Ancient_State.txt
+BOOK_ID: NIBLEY_CW_V10
+Title: The Collected Works of Hugh Nibley, Vol. 10 The Ancient State
+Approx length: 167,324 words | ~222,541 tokens
+Top terms: one, world, new, great, der, life, ibid, science, und, god, history, man
+Preview: The Ancient State
+
+## 09_NIBLEY_CW_V12_The_Collected_Works_of_Hugh_Nibley_Vol._12_Temple_and_Cosmos_Beyond_Th.txt
+BOOK_ID: NIBLEY_CW_V12
+Title: The Collected Works of Hugh Nibley, Vol. 12 Temple and Cosmos Beyond This Ignorant Present
+Approx length: 182,353 words | ~242,529 tokens
+Top terms: one, world, temple, god, great, things, ibid, new, says, time, book, first
+Preview: Temple and Cosmos
+
+## 10_NIBLEY_CW_V13_The_Collected_Works_of_Hugh_Nibley_Vol._13_Brother_Brigham_Challenges.txt
+BOOK_ID: NIBLEY_CW_V13
+Title: The Collected Works of Hugh Nibley, Vol. 13 Brother Brigham Challenges the Saints
+Approx length: 163,331 words | ~217,230 tokens
+Top terms: one, god, world, people, would, man, brigham, things, earth, young, men, upon
+Preview: Brother Brigham Challenges the Saints
+
+## 11_NIBLEY_CW_V14_The_Collected_Works_of_Hugh_Nibley_Vol._14_Abraham_in_Egypt.txt
+BOOK_ID: NIBLEY_CW_V14
+Title: The Collected Works of Hugh Nibley, Vol. 14 Abraham in Egypt
+Approx length: 200,592 words | ~266,787 tokens
+Top terms: abraham, ibid, king, one, egyptian, egypt, great, book, god, pharaoh, figure, der
+Preview: The Collected Works of Hugh Nibley
+
+## 12_NIBLEY_CW_V15_The_Collected_Works_of_Hugh_Nibley_Vol._15_Apostles_and_Bishops_in_Ear.txt
+BOOK_ID: NIBLEY_CW_V15
+Title: The Collected Works of Hugh Nibley, Vol. 15 Apostles and Bishops in Early Christianity
+Approx length: 92,870 words | ~123,517 tokens
+Top terms: church, bishop, rome, bishops, one, apostles, authority, peter, office, must, clement, apostolic
+Preview: © 2004 The Foundation for Ancient Research and Mormon Studies and Hugh Nibley and Associates, LC
+
+## 13_NIBLEY_CW_V16_The_Collected_Works_of_Hugh_Nibley_Vol._16_Message_of_the_Joseph_Smith.txt
+BOOK_ID: NIBLEY_CW_V16
+Title: The Collected Works of Hugh Nibley, Vol. 16 Message of the Joseph Smith Papyri An Egyptian Endowment
+Approx length: 292,323 words | ~388,790 tokens
+Top terms: egyptian, book, one, der, papyrus, osiris, god, temple, des, texts, und, thy
+Preview: Jacket design by Shauna Gibby
+
+## 14_NIBLEY_CW_V17_The_Collected_Works_of_Hugh_Nibley_Vol._17_Eloquent_Witness_Nibley_on.txt
+BOOK_ID: NIBLEY_CW_V17
+Title: The Collected Works of Hugh Nibley, Vol. 17 Eloquent Witness Nibley on Himself, Others, and the Temple
+Approx length: 161,474 words | ~214,760 tokens
+Top terms: one, world, nibley, god, things, see, temple, time, great, man, people, would
+Preview: Collected Works of Hugh Nibley
+
+## 15_NIBLEY_CW_V18_The_Collected_Works_of_Hugh_Nibley_Vol._18_An_Approach_to_to_the_Book.txt
+BOOK_ID: NIBLEY_CW_V18
+Title: The Collected Works of Hugh Nibley, Vol. 18 An Approach to to the Book of Abraham
+Approx length: 207,300 words | ~275,709 tokens
+Top terms: abraham, egyptian, one, book, smith, joseph, would, see, king, egypt, god, four
+Preview: © 2010 The Foundation for Ancient Research and Mormon Studies and Hugh Nibley and Associates, LC
+
+## 16_NIBLEY_CW_V19_The_Collected_Works_of_Hugh_Nibley_Vol._19_One_Eternal_Round.txt
+BOOK_ID: NIBLEY_CW_V19
+Title: The Collected Works of Hugh Nibley, Vol. 19 One Eternal Round
+Approx length: 198,939 words | ~264,589 tokens
+Top terms: abraham, one, book, ibid, egyptian, god, see, great, hypocephalus, joseph, world, two
+Preview: The Collected Works of Hugh Nibley
+
+## 17_NIBLEY_ANC_DOC_PGP_Ancient_Documents_and_the_Pearl_of_Great_Price.txt
+BOOK_ID: NIBLEY_ANC_DOC_PGP
+Title: Ancient Documents and the Pearl of Great Price
+Approx length: 211,199 words | ~280,895 tokens
+Top terms: it's, one, says, that's, things, time, now, god, thing, great, world, well
+Preview: Ancient Documents and the Pearl of Great Price
+
+## 18a_NIBLEY_TBOM_P1_Teachings_of_the_Book_of_Mormon_Part_One.txt
+BOOK_ID: NIBLEY_TBOM_P1
+Title: Teachings of the Book of Mormon, Part One
+Approx length: 258,058 words | ~342,959 tokens
+Top terms: people, things, one, book, thing, time, because, going, would, said, very, him
+Preview: TEACHINGS OF THE BOOK OF MORMON — PART ONE
+
+## 18b_NIBLEY_TBOM_P2_Teachings_of_the_Book_of_Mormon_Part_Two.txt
+BOOK_ID: NIBLEY_TBOM_P2
+Title: Teachings of the Book of Mormon, Part Two
+Approx length: 248,159 words | ~329,803 tokens
+Top terms: people, thing, one, king, things, would, verse, said, going, because, very, him
+Preview: TEACHINGS OF THE BOOK OF MORMON — PART TWO
+
+## 18c_NIBLEY_TBOM_P3_Teachings_of_the_Book_of_Mormon_Part_Three.txt
+BOOK_ID: NIBLEY_TBOM_P3
+Title: Teachings of the Book of Mormon, Part Three
+Approx length: 246,565 words | ~327,685 tokens
+Top terms: people, one, thing, things, would, great, going, book, like, time, because, very
+Preview: TEACHINGS OF THE BOOK OF MORMON — PART THREE
+
+## 18d_NIBLEY_TBOM_P4_Teachings_of_the_Book_of_Mormon_Part_Four.txt
+BOOK_ID: NIBLEY_TBOM_P4
+Title: Teachings of the Book of Mormon, Part Four
+Approx length: 217,819 words | ~289,481 tokens
+Top terms: people, one, things, well, thing, see, book, going, says, mormon, would, very
+Preview: TEACHINGS OF THE BOOK OF MORMON — PART FOUR
