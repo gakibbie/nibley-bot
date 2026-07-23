@@ -1,0 +1,25 @@
+# CI-safe allowlist (read-only and deterministic preferred)
+# One command prefix per line
+
+git status
+git diff
+git log
+
+rg
+ls
+cat
+
+npm ci
+npm test
+npm run lint
+npm run build
+
+pnpm install --frozen-lockfile
+pnpm test
+pnpm lint
+pnpm build
+
+yarn install --frozen-lockfile
+yarn test
+yarn lint
+yarn build

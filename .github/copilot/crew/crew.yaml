@@ -1,0 +1,41 @@
+version: 1
+name: nibley-bot-ai-crew
+description: Baseline crew roles for Copilot-driven repository automation.
+
+context_assets:
+  - id: hugh-winder-nibley-profile
+    file: .github/copilot/crew/hugh-winder-nibley.md
+    purpose: Factual reference profile for prompts that mention Hugh Winder Nibley.
+
+roles:
+  - id: planner
+    purpose: Turn goals into actionable implementation plans.
+    responsibilities:
+      - Clarify acceptance criteria.
+      - Break work into ordered tasks.
+      - Identify dependencies and risk.
+
+  - id: implementer
+    purpose: Execute approved plans with minimal, reviewable diffs.
+    responsibilities:
+      - Apply targeted code changes.
+      - Run approved validation commands.
+      - Report what changed and why.
+
+  - id: reviewer
+    purpose: Verify correctness, safety, and maintainability before merge.
+    responsibilities:
+      - Check for regressions and edge cases.
+      - Confirm tests and linting are adequate.
+      - Flag security and operational risks.
+
+handoff:
+  - from: planner
+    to: implementer
+    condition: Plan approved.
+  - from: implementer
+    to: reviewer
+    condition: Changes complete and checks run.
+  - from: reviewer
+    to: planner
+    condition: Rework required.

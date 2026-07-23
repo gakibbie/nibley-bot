@@ -1,0 +1,28 @@
+# Default command allowlist for local automation
+# One command prefix per line
+
+git status
+git diff
+git add
+git commit
+git log
+
+rg
+ls
+cat
+
+npm ci
+npm install
+npm test
+npm run lint
+npm run build
+
+pnpm install
+pnpm test
+pnpm lint
+pnpm build
+
+yarn install
+yarn test
+yarn lint
+yarn build
