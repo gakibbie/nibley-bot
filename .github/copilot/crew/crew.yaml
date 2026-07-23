@@ -6,6 +6,9 @@ context_assets:
   - id: hugh-winder-nibley-profile
     file: .github/copilot/crew/hugh-winder-nibley.md
     purpose: Factual reference profile for prompts that mention Hugh Winder Nibley.
+  - id: denver-carlos-snuffer-jr-profile
+    file: .github/copilot/crew/denver-carlos-snuffer-jr.md
+    purpose: Factual reference profile for prompts that mention Denver Carlos Snuffer Jr.
 
 roles:
   - id: planner
