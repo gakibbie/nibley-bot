@@ -1,3 +1,9 @@
 # Ignore local environment/config directories
 .local/
 **/.local/
+
+# Node and frontend build artifacts
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo

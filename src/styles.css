@@ -1,0 +1,175 @@
+:root {
+  font-family: "Segoe UI", "Inter", sans-serif;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #10203a;
+  background:
+    radial-gradient(circle at 20% 0%, #e3f6ff 0%, transparent 42%),
+    radial-gradient(circle at 95% 10%, #e6ffe9 0%, transparent 36%),
+    #f7f9fc;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.app-header {
+  padding: 1.25rem;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0f6f6f, #28518c);
+  color: #fff;
+  margin-bottom: 0.9rem;
+}
+
+.app-header h1 {
+  margin: 0 0 0.35rem 0;
+  font-size: 1.5rem;
+}
+
+.app-header p {
+  margin: 0;
+  opacity: 0.95;
+}
+
+.app-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 0.45rem 0.7rem;
+  border: 1px solid #bfd1e8;
+  border-radius: 10px;
+  background: #fff;
+  color: #12325c;
+}
+
+.nav-link.active {
+  background: #1b5ea9;
+  border-color: #1b5ea9;
+  color: #fff;
+}
+
+.grid {
+  display: grid;
+  gap: 0.9rem;
+}
+
+.grid.two-up {
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.panel {
+  background: #fff;
+  border: 1px solid #dae5f2;
+  border-radius: 12px;
+  padding: 0.9rem;
+}
+
+.panel h2 {
+  margin: 0 0 0.6rem 0;
+  font-size: 1.1rem;
+}
+
+.field-group {
+  margin: 0.6rem 0;
+}
+
+.hint {
+  color: #4f647d;
+  margin: 0.25rem 0 0 1.5rem;
+  font-size: 0.92rem;
+}
+
+.stacked {
+  display: grid;
+  gap: 0.35rem;
+  margin-bottom: 0.7rem;
+}
+
+select,
+textarea,
+button {
+  font: inherit;
+}
+
+select,
+textarea {
+  width: 100%;
+  border: 1px solid #c7d7ea;
+  border-radius: 10px;
+  padding: 0.5rem;
+  background: #fbfdff;
+}
+
+button {
+  border: 1px solid #1b5ea9;
+  border-radius: 10px;
+  background: #1b5ea9;
+  color: #fff;
+  padding: 0.45rem 0.85rem;
+  cursor: pointer;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.checkbox {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.score {
+  margin: 0.8rem 0 0;
+  font-weight: 600;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  margin-top: 0.8rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th,
+td {
+  border: 1px solid #d7e3f3;
+  padding: 0.45rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+@media (max-width: 700px) {
+  .app-shell {
+    padding: 0.75rem;
+  }
+
+  .app-header h1 {
+    font-size: 1.2rem;
+  }
+}
