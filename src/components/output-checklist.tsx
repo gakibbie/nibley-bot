@@ -4,10 +4,16 @@ import { useAppState } from "../state/app-state";
 export function OutputChecklist() {
   const { checklist, setChecklist } = useAppState();
 
-  const score = useMemo(() => {
+  const progress = useMemo(() => {
     const values = Object.values(checklist);
     const complete = values.filter(Boolean).length;
-    return `${complete}/${values.length}`;
+    const total = values.length;
+    return {
+      complete,
+      total,
+      score: `${complete}/${total}`,
+      ready: complete === total
+    };
   }, [checklist]);
 
   return (
@@ -57,7 +63,10 @@ export function OutputChecklist() {
         Uncertainty statement present when evidence is partial
       </label>
 
-      <p className="score">Checklist completion: {score}</p>
+      <p className="score">Checklist completion: {progress.score}</p>
+      <p className={`status-pill ${progress.ready ? "ok" : "warn"}`}>
+        {progress.ready ? "Ready to publish" : "Needs review"}
+      </p>
     </section>
   );
 }

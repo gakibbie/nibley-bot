@@ -22,6 +22,8 @@ export type FeedCheckResult = {
   latestItemTitle?: string;
   latestItemDate?: string;
   error?: string;
+  detail?: string;
+  cached?: boolean;
 };
 
 export const FEED_TARGETS = [

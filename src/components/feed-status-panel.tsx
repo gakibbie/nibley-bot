@@ -3,36 +3,23 @@ import { useAppState } from "../state/app-state";
 import { FEED_TARGETS, type FeedCheckResult } from "../types";
 
 async function checkFeed(sourceName: string, url: string): Promise<FeedCheckResult> {
-  const started = new Date().toISOString();
   try {
-    const response = await fetch(url, {
-      method: "GET",
-      mode: "cors"
-    });
+    const params = new URLSearchParams({ sourceName, url });
+    const response = await fetch(`/api/feed-check?${params.toString()}`);
 
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}`);
     }
 
-    const text = await response.text();
-    const titleMatch = text.match(/<title>(.*?)<\/title>/i);
-    const pubDateMatch = text.match(/<pubDate>(.*?)<\/pubDate>/i);
-
-    return {
-      sourceName,
-      url,
-      status: "ok",
-      fetchedAt: started,
-      latestItemTitle: titleMatch?.[1]?.trim() || "(title not parsed)",
-      latestItemDate: pubDateMatch?.[1]?.trim() || "(date not parsed)"
-    };
+    return (await response.json()) as FeedCheckResult;
   } catch (error) {
     return {
       sourceName,
       url,
       status: "error",
-      fetchedAt: started,
-      error: error instanceof Error ? error.message : "unknown error"
+      fetchedAt: new Date().toISOString(),
+      error: error instanceof Error ? error.message : "unknown error",
+      detail: "Client request failed before proxy response"
     };
   }
 }
@@ -44,7 +31,9 @@ export function FeedStatusPanel() {
   return (
     <section className="panel">
       <h2>Feed Status Panel</h2>
-      <p className="hint">Checks Denver Snuffer feed endpoints and captures latest parsed metadata when available.</p>
+      <p className="hint">
+        Checks Denver Snuffer feed endpoints through a local dev proxy to avoid browser CORS blocks.
+      </p>
       <button
         type="button"
         disabled={checking}
@@ -89,7 +78,7 @@ export function FeedStatusPanel() {
                   <td>{row.fetchedAt ?? "-"}</td>
                   <td>{row.latestItemTitle ?? "-"}</td>
                   <td>{row.latestItemDate ?? "-"}</td>
-                  <td>{row.error ?? "-"}</td>
+                  <td>{row.error ?? row.detail ?? "-"}</td>
                 </tr>
               ))
             )}

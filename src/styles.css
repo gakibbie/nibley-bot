@@ -145,6 +145,32 @@ button:disabled {
   font-weight: 600;
 }
 
+.status-pill {
+  margin: 0.55rem 0 0;
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+
+.status-pill.ok {
+  background: #e6f8eb;
+  color: #19653a;
+  border: 1px solid #97d0ab;
+}
+
+.status-pill.warn {
+  background: #fff6df;
+  color: #7d5b10;
+  border: 1px solid #e8cb85;
+}
+
+ul,
+ol {
+  margin-top: 0.4rem;
+}
+
 .table-wrap {
   overflow-x: auto;
   margin-top: 0.8rem;
